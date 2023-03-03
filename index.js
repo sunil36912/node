@@ -1,9 +1,19 @@
 const http = require('http');
+var data = require('./data');
 var colors = require('colors');
+
+// const data={
+//     'name':'sunil',
+//     'class':'12',
+//     'designation':'developer'
+// }
+
+console.log(process.argv);
  
 console.log('hello'.green); // outputs green text
 http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end("<h1 style='color:pink;'>Garvi Sinhmar</h1>");
+    res.write(JSON.stringify(data));
+    res.end();
 }).listen("5000");
 
