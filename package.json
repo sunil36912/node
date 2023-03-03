@@ -1,0 +1,28 @@
+{
+  "name": "nodeprac",
+  "version": "1.0.0",
+  "description": "leaning node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil36912/node.git"
+  },
+  "keywords": [
+    "code",
+    "with",
+    "sunil"
+  ],
+  "author": "sunil kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunil36912/node/issues"
+  },
+  "homepage": "https://github.com/sunil36912/node#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.21"
+  }
+}
